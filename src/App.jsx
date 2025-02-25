@@ -4,25 +4,26 @@ function App() {
 const slides = [
   {
     question: 'Kas tā ir un vai tā ir struktūras vai uzvedības modeļa daļa?',
-    content: 'Tā ir UML diagramma, kas var būt vai nu struktūras (piemēram, klases diagramma), vai uzvedības modeļa daļa (piemēram, aktivitāšu diagramma).',
+    content: 'Sequence diagramma ir UML uzvedības modeļa daļa. Tā parāda, kā objekti mijiedarbojas noteiktā scenārijā, attēlojot ziņojumu plūsmu starp tiem.',
   },
   {
     question: 'Kad to izmanto?',
-    content: 'To izmanto, lai vizualizētu programmatūras sistēmu struktūru vai uzvedību, palīdzot izstrādātājiem un analītiķiem saprast un plānot sistēmas darbību.',
+    content: 'Sequence diagrammu izmanto, lai modelētu sistēmas darbību, vizualizējot ziņojumu apmaiņu starp objektiem noteiktā secībā. Tā palīdz saprast un plānot lietotāju un sistēmas komponentu mijiedarbību.',
   },
   {
     question: 'Kādi UML elementi ir šajā diagrammā?',
-    content: 'UML diagramma var saturēt elementus, piemēram, klases, objektus, attiecības, darbības, aktorus, ziņojumus un notikumus, atkarībā no diagrammas veida.',
+    content: 'Sequence diagrammā ir aktori, objekti, dzīves līnijas, ziņojumi un aktivitāšu bāri. Ziņojumi tiek attēloti kā bultiņas, kas parāda darbību secību starp objektiem.',
   },
   {
     question: 'Kāds ir piemērs ar skaidrojumu?',
-    content: 'Piemēram, klases diagrammā Blog varētu būt klases: Blog, BlogPost, Author, Reader. BlogPost satur nosaukumu, pamattekstu un izveides datumu, savukārt Author var dzēst un rediģēt ierakstus.',
+    content: 'Piemēram, scenārijs "Lasītājs apskata bloga ierakstu": Lasītājs pieprasa ierakstu, Blogs nosūta pieprasījumu uz BlogPost, BlogPost atgriež datus Blogam, un Blogs tos parāda lasītājam.',
   },
   {
     question: 'Kā šī diagramma izskatītos projektā Blogs?',
-    content: 'Projektā Blogs varētu būt klases diagramma ar klasēm Blog, BlogPost, Author un Reader. Attiecības starp tām: Blog satur vairākus BlogPost, Author rada un rediģē BlogPost, bet Reader var tikai skatīt.',
+    content: 'Projektā Blogs Sequence diagramma varētu attēlot scenāriju "Autors rediģē bloga ierakstu", kur autors pieprasa rediģēšanu, Blogs nosūta pieprasījumu BlogPost, BlogPost saglabā izmaiņas un atgriež apstiprinājumu.',
   }
 ];
+
 
   return (
     <main className="h-screen overflow-y-scroll snap-y snap-mandatory">
