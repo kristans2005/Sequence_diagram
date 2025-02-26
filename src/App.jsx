@@ -25,7 +25,7 @@ const slides = [
   {
     question: 'Kā šī diagramma izskatītos projektā Blogs?',
     content: 'Projektā Blogs Sequence diagramma varētu attēlot scenāriju "Autors rediģē bloga ierakstu", kur autors pieprasa rediģēšanu, Blogs nosūta pieprasījumu BlogPost, BlogPost saglabā izmaiņas un atgriež apstiprinājumu.',
-    image: 'src/assets/diagramm.png'
+    image: 'https://media.discordapp.net/attachments/760161703253377055/1344200156802715738/Untitled.png?ex=67c00b73&is=67beb9f3&hm=6a5987f8eb9ab55f12446ba81bcd5b6dea7058734d0fbc071825f13744727393&=&format=webp&quality=lossless&width=785&height=473'
   }
 ];
 
