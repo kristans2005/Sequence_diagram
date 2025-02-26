@@ -25,7 +25,7 @@ const slides = [
   {
     question: 'Kā šī diagramma izskatītos projektā Blogs?',
     content: 'Projektā Blogs Sequence diagramma varētu attēlot scenāriju "Autors rediģē bloga ierakstu", kur autors pieprasa rediģēšanu, Blogs nosūta pieprasījumu BlogPost, BlogPost saglabā izmaiņas un atgriež apstiprinājumu.',
-    image: 'https://media.geeksforgeeks.org/wp-content/uploads/20231228132950/Synchronus-Message-22.jpg'
+    image: 'src/assets/diagramm.png'
   }
 ];
 
